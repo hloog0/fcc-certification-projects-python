@@ -5,7 +5,7 @@ Projects in this repo:
 -Hash functions project:
 Certification project for FreeCodeCamp, written September 8th, 2026
 
-Learned how to use hash functions, store hash values Learned I can use hash values to potentially decrease time complexity from O(n^2) to O(n)
+Learned how to use hash functions, store hash values Learned I can use hash values to potentially make algorithms faster with more efficient lookups
 
 
 -Hanoi tower solver:
