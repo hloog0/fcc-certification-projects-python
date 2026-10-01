@@ -1,4 +1,4 @@
-Started learning python in FCC on August 26th, 2026
+Started learning Python in FreeCodeCamp on August 26th, 2026
 
 Projects in this repo:
 
