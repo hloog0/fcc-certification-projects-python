@@ -32,18 +32,17 @@ class HashTable:
     def lookup(self, key):
         key_hash = self.hash(key)
         if key_hash in self.collection and key in self.collection[key_hash]:
-                return self.collection[key_hash][key]
-            else:
-                return None
-        else:
-            return None
-if __name__ = '__main__'
-print(HashTable().hash('golf'))
-newhash = HashTable()
-newhash.add('dear', 'friend')
-newhash.add('read', 'book')
-print(newhash.collection)
-print(newhash.lookup('read'))
-print(newhash.remove('read'))
-print(newhash.lookup('dear'))
-print(newhash.lookup('read'))
+            return self.collection[key_hash][key]
+        return None
+
+
+if __name__ == '__main__':
+    print(HashTable().hash('golf'))
+    newhash = HashTable()
+    newhash.add('dear', 'friend')
+    newhash.add('read', 'book')
+    print(newhash.collection)
+    print(newhash.lookup('read'))
+    print(newhash.remove('read'))
+    print(newhash.lookup('dear'))
+    print(newhash.lookup('read'))
